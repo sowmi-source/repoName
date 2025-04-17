@@ -29,7 +29,7 @@ public class AprilPurchase {
             System.out.println("Total Spending in April 2025: " + totalSpent);
         }
 
-        
+    //jkklk
         String categoryQuery = "SELECT category, SUM(amount) AS total FROM purchase " +
                                "WHERE MONTH(purchase_date) = 4 AND YEAR(purchase_date) = 2025 " +
                                "GROUP BY category ORDER BY total DESC";
@@ -48,3 +48,6 @@ public class AprilPurchase {
         con.close();
     }
 }
+
+
+
