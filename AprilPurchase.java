@@ -10,7 +10,7 @@ public class AprilPurchase {
             e.printStackTrace();  
         }
     }
- // connetion details
+ // connection details
     public static void aprilSummary() throws Exception {
         String userName = "root";
         String password = "12345";
