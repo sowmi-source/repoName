@@ -13,7 +13,7 @@ public class AprilPurchase {
  // connection details
     public static void aprilSummary() throws Exception {
         String userName = "sowmi";
-        String password = "12345";
+        String password = "sow234";
         String url = "jdbc:mysql://localhost:3306/logicfirst";
 
         Connection con = DriverManager.getConnection(url, userName, password);
