@@ -12,7 +12,7 @@ public class AprilPurchase {
     }
  // connection details
     public static void aprilSummary() throws Exception {
-        String userName = "root";
+        String userName = "sowmi";
         String password = "12345";
         String url = "jdbc:mysql://localhost:3306/logicfirst";
 
